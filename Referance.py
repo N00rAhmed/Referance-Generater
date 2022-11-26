@@ -22,7 +22,7 @@ soup = BeautifulSoup(reqs.text, 'html.parser')
 for title in soup.find_all('title'):
     ref =  header + f' ({published_year}) ' + (title.get_text() + ' [online]' + ' Address: ' + url + f' [accessed: {access_date}] ')
 
-    print(ref)
+    # print(ref)
 
     file = open('Database.txt', 'a')
     storage = file.write(str(ref) + '\n')
@@ -40,3 +40,6 @@ for title in soup.find_all('title'):
         with open('Database.txt') as f:
             contents = f.read()
             print(contents)
+    else:
+        ('Bye')
+        sys.exit()
