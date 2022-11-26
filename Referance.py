@@ -27,12 +27,6 @@ for title in soup.find_all('title'):
     file = open('Database.txt', 'a')
     storage = file.write(str(ref) + '\n')
 
-#     pull_data = input('Type pull to see your references, if not then press enter: ')
-#     if pull_data == 'pull':
-#         with open('Database.txt') as f:
-#             contents = f.read()
-#             print(contents)
-
     file.close()
 
     pull_data = input('Type pull to see all your references, if not then press enter: ')
