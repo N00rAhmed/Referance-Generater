@@ -1,7 +1,7 @@
 # Python Reference Genrator
 
 ### Introduction
-This is a python automation program which creates a referance for the user by just adding the URL of the web page used for a research paper, homework, assignment etc. Currently this script generates a havard reference. The purpose of this project is to make life easier for students because creating references cann be a tedious task.
+This python automation program creates a haravard referance for the user by having the user input the header, year of publish and URL of the web page. Once this information has been given a haravard reference will be generated for the user. The purpose of this project is to make life easier for students because creating references cann be a tedious task.
 
 ### Prerequisites
 
