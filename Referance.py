@@ -2,6 +2,7 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 from datetime import date
+import time
 
 def main():
     header = input('Header: ')
@@ -28,6 +29,8 @@ def main():
         with open('Database.txt') as f:
             contents = f.read()
             print(contents)
+            print("_______________________________________________________________________________________________________________")
+            time.sleep(5)
     else:
         print('Bye')
         sys.exit()
