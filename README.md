@@ -5,7 +5,7 @@ This python automation program creates a haravard referance for the user by havi
 
 ### Prerequisites
 
-You can follow these instructions to setup a dev environment:
+You can follow these instructions to setup the developer environment:
 
 - Install BeautifulSoup
 - Install Requests
@@ -21,6 +21,11 @@ pip install requests
 ### Run Python Application
 ```
 Referance.py
+```
+
+### Docker
+```
+docker run -i -t reference-program-dockerisation
 ```
 
 ### Run Unit Test
