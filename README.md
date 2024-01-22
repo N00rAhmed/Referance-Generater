@@ -1,16 +1,5 @@
 # Reference Generator
 
-<h2>Table of Contents</h2>
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Run Python Application](#run-python-application)
-- [Docker](#docker)
-- [Build Command](#build-command)
-- [Run Command](#run-command)
-- [Run Unit Test](#run-unit-test)
-<hr />
-
 ### Introduction
 This python automation program creates a haravard referance for the user by having the user input the header, year of publish and URL of the web page. All references are stored in one location within a text file for easy retrievel.
 
