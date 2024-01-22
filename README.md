@@ -47,7 +47,7 @@ The -t flag tags your image with a name, reference-program-dockerisation in this
 
 ### Run Command
 
-Run in this directory to build and run the app:
+To run the program type this command:
 ```
 docker run -i -t reference-program-dockerisation
 ```
