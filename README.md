@@ -1,7 +1,7 @@
 # Reference Generator
 
 ### Introduction
-This python automation program creates a haravard referance for the user by having the user input the header, year of publish and URL of the web page. All references are stored in one location within a text file for easy retrievel.
+This python automation program creates a harvard referance for the user by having the user input the header, year of publish and URL of the web page. All references are stored in one location within a text file for easy retrievel.
 
 ### Prerequisites
 
