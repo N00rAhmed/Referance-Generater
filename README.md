@@ -25,9 +25,6 @@ Referance.py
 
 ### Docker
 ```
-docker pull reference-program-dockerisation
-```
-```
 docker run -i -t reference-program-dockerisation
 ```
 
