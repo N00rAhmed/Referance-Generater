@@ -24,6 +24,10 @@ Referance.py
 ```
 
 ### Docker
+Download Docker Desktop for Mac or Windows. Docker Compose will be automatically installed.<br/>
+This solution uses Python3 and Python libraries.
+
+Run in this directory to build and run the app:
 ```
 docker run -i -t reference-program-dockerisation
 ```
